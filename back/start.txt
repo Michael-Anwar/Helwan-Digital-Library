@@ -1,0 +1,4 @@
+in manager table faculty_id	int(11) defult	Yes	NULL
+
+
+عمل كوندشن عند مسح الملفات عند التعديل لو الملف مش موجود ميضربش ايرور
