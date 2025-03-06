@@ -1,0 +1,269 @@
+main {
+    height: 47rem;
+    /* background-image: linear-gradient(180deg, #19355a, rgba(255,0,0,0) 70.71%),url("../../../images/124406.jpg"); */
+    background-position: center;
+    background-image: url("../../../images/124509.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* service */
+
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.services {
+    border-radius: 20px;
+    background-color: #fff;
+    transition: all 400ms ease;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+    animation: fade-iin .7s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+#services h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: #19355a;
+    margin: 2rem auto;
+
+}
+
+#services {
+    padding: 1rem .3rem;
+    margin: 0 1rem;
+    /* background: #EFF2FF; */
+}
+
+.service__head {
+    /* background: #AD8700; */
+    padding: 2rem;
+    border-radius: 5px;
+    /* box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1); */
+}
+
+.service__head h1 {
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.service__list {
+    padding: 2rem;
+
+}
+
+.service__list .li-article {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+    align-items: center;
+    /* flex-direction: row; */
+    grid-template-columns: 5% 95%;
+    justify-items: center;
+
+}
+
+.bttn {
+    width: 100%;
+    display: grid;
+    place-content: center;
+    margin-bottom: 0 !important;
+}
+
+.bttn a {
+    background: #AD8700;
+    font-size: 1.5rem;
+    margin: 1rem auto 0 auto;
+    padding: 0.7rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #AD8700;
+}
+
+button.bttn {
+    color: #fff;
+    border: 1px solid #AD8700;
+    margin: auto;
+    background: #AD8700;
+    font-size: 1.2rem;
+    padding: 0.7rem .5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s all;
+
+}
+
+.bttn a:hover {
+    background: #fff;
+    color: #19355a;
+    border: 1px solid #AD8700;
+    transition: ease-in-out 0.5s all;
+}
+
+.bttn:hover {
+    background: #fff;
+    color: #19355a;
+    transition: ease-in-out 0.5s all;
+}
+
+.service__list-icon {
+    color: #AD8700;
+    margin-top: 2px;
+    font-size: 1.5rem;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.service__list p {
+    font-size: 1.2rem;
+    color: #000000bd;
+}
+
+.enroll {
+    margin: 0 auto;
+}
+
+.intro-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: #fff;
+    padding: 0 1rem;
+    animation: fade-iin 1s ease-in;
+    gap: 1rem;
+}
+
+.intro-txt h1 {
+    font-size: 3.5rem;
+    /* font-weight: bolder; */
+}
+
+.intro-txt h2 {
+    font-size: 2.5rem;
+    /* font-weight: bolder; */
+}
+
+.intro-txt h3 {
+    font-size: 1.2rem;
+    /* font-weight: bolder; */
+}
+
+#services .more-Services {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    background: #19355a;
+    color: #fff;
+
+}
+
+#services .more-Services:hover {
+    cursor: pointer;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.container-event {
+    border-radius: 20px;
+    background-color: #fff;
+    transition: all 400ms ease;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+    animation: fade-iin .7s ease-in-out;
+    padding: 20px;
+    width: calc(100% - 10px);
+    /* 50% width with 10px spacing in between */
+    text-align: center;
+    box-sizing: border-box;
+    /* Include padding in the width calculation */
+}
+
+.container-event .event-img {
+    display: flex;
+    justify-content: center;
+    /* Center the image horizontally */
+    align-items: center;
+    /* Center the image vertically */
+    background-color: #f0f0f0;
+    /* Add a background color to the container if needed */
+    width: 100%;
+    /* Make the container take the full width of its parent */
+    height: 200px;
+    /* Set a fixed height for the container */
+}
+
+.container-event .event-img img {
+    max-width: 100%;
+    max-height: 100%;
+    /* Ensure the image maintains its aspect ratio */
+}
+
+.container-event .event-txt h3 {
+    color: #19355a;
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.container-event .event-txt p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.container-event .event-date {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    color: #ad8700;
+    margin-top: 5px;
+}
+
+
+
+
+@keyframes fade-iin {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .services__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .services {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600PX) {
+    .services__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

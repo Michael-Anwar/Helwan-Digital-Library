@@ -1,0 +1,98 @@
+.popup-error {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  animation: fade-in 0.3s ease-in;
+}
+
+.popup-error-content {
+  position: relative;
+  background-color: #ffffff;
+  padding: 30px;
+  color: red;
+  border-radius: 5px;
+  font-size: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fade-iin 0.3s ease-in;
+}
+
+
+
+.popup-error-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.popup-error-close:hover {
+  color: red;
+}
+
+.popup-login-button {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #AD8700;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: ease-in-out 0.5s all;
+
+}
+
+.popup-login-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: ease-in-out 0.5s all;
+}
+.popup-error-message {
+  text-align: center;
+}
+.popup-error-message .add-event{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  direction: rtl;
+
+
+}
+.popErrw{
+  width: 50%;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .popup-error-message .add-event{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .popErrw {
+    width: 100%;
+  }
+}

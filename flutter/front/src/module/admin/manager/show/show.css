@@ -1,0 +1,329 @@
+.cotainer-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cotainer-data .resp-cont {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-items: center;
+    width: 80%;
+    margin-bottom: 2rem;
+    direction: rtl;
+}
+
+.cotainer-data .resp-cont .resp {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 100%;
+}
+
+.resp .inputt-atch,
+.resp .inputt-atch .atch-btns {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 1rem;
+}
+
+.data-container {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    align-items: self-start;
+    width: 100%;
+}
+
+.data-container table {
+    align-self: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 23px auto;
+    background: white;
+    color: black;
+}
+
+.data-container td,
+.data-container th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.data-container td,
+.data-container th,
+.data-container tr,
+.input-cell {
+    font-size: 1.5rem;
+}
+
+.data-container tr:nth-child(even) {
+    background: #dddddd;
+}
+
+.profile-table tr:nth-child(even) {
+    background: #dddddd;
+}
+
+.profile-table th {
+    font-size: 2rem;
+}
+
+
+
+.image-con {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-con .status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem auto;
+    gap: 1rem;
+    text-align: center;
+}
+
+.imagee {
+    width: 70%;
+    border-radius: 10px;
+    margin: 3rem auto 0;
+
+}
+
+.wait-edit {
+    background-color: rgb(0, 60, 112);
+    color: white;
+    padding: .3rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid transparent;
+}
+
+.wait-edit:hover {
+    color: rgb(0, 60, 112);
+    background-color: #fff;
+    border: 2px solid rgb(0, 60, 112);
+}
+
+.image-con p {
+    width: 80%;
+    margin: auto;
+    padding: 8px 6px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem auto;
+    background-color: rgb(35, 175, 110);
+    color: #fff;
+}
+
+.image-con button,
+.data-con-table-btn button {
+    width: 80%;
+    margin: auto;
+    padding: 8px 6px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    transition: ease-in-out 0.5s all;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.data-con-table-btn button {
+    background-color: #ad8700;
+}
+
+.data-con-table-btn button:hover {
+    background-color: #fff;
+    color: #ad8700;
+    border: 2px solid #ad8700;
+}
+
+.image-con .acc {
+    background-color: rgb(35, 175, 110);
+
+}
+
+.image-con .acc:hover {
+    color: rgb(35, 175, 110);
+    background-color: #fff;
+    border: 2px solid rgb(35, 175, 110);
+    transition: ease-in-out 0.5s all;
+
+}
+
+.image-con .ref {
+    background-color: rgb(175, 35, 35);
+}
+
+.image-con .ref:hover {
+    color: rgb(175, 35, 35);
+    background-color: #fff;
+    border: 2px solid rgb(175, 35, 35);
+    transition: ease-in-out 0.5s all;
+
+}
+
+h2>input {
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 2px solid #19355a;
+}
+
+
+.data-con-table-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td .edit-input-user {
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    border: transparent;
+}
+
+.status>input {
+    width: 80%;
+    margin: auto;
+    padding: 8px 6px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: ease-in-out 0.5s all;
+    border: 2px solid #19355a;
+    direction: rtl;
+}
+
+.response-text__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem auto;
+    gap: 1rem;
+    text-align: center;
+}
+
+.response-text__container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #19355a;
+}
+.response-text__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem auto;
+    transition: ease-in-out 0.5s all;
+
+  }
+.response-text__container .response-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    direction: rtl;
+    transition: ease-in-out 0.5s all;
+    animation: ease-in-out 0.5s all;
+}
+  
+  .history-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.3rem;
+    width: 90%;
+    transition: ease-in-out 0.5s all;
+
+  }
+  
+  .history-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: .5rem;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: #19355a;
+    color: white;
+    transition: ease-in-out 0.5s all;
+
+  }
+  
+  .history-item .detail,
+  .history-item .date {
+    margin: 0 1rem;
+    transition: ease-in-out 0.5s all;
+    font-size: 1rem;
+  }
+  
+
+
+@media(max-width: 760px) {
+    .data-container {
+        grid-template-columns: 2fr 4fr;
+    }
+
+    .status>input,
+    .status>button,
+    .status>p {
+        font-size: 1rem;
+    }
+
+    * {
+        font-size: 85%;
+    }
+    .history-item .detail,
+    .history-item .date {
+        margin: 0 .5rem;
+        transition: ease-in-out 0.5s all;
+        font-size: .8rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .data-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* .status > input,
+    .status > button,
+    .status > p{
+        font-size: 1.3rem;
+    } */
+}

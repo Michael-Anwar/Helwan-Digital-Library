@@ -1,0 +1,51 @@
+.ImageService {
+    width: 100% !important;
+    margin: 0;
+
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wait {
+    color: #fff;
+    background-color: #AD8700;
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+.contiue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.contiue .code {
+    background-color: gray;
+    padding: .5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.contiue a {
+    background-color: #19355a;
+    padding: .5rem;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .ImageService {
+        width: 70%;
+        margin: auto;
+
+    }
+}

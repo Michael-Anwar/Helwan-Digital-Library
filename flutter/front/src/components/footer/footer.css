@@ -1,0 +1,46 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #19355a;
+    color: #fff;
+    height: 250px;
+    width: 100%;
+}
+
+footer>div {
+    padding: 2rem 3rem;
+}
+
+.uni-logo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.uni-logo img {
+    width: 7rem;
+}
+
+.social-container {
+    display: flex;
+    gap: .8rem;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    footer {
+        grid-template-columns: 1fr;
+        height: 100%;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    footer>div {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

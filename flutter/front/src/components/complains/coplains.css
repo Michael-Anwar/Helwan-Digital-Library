@@ -1,0 +1,59 @@
+.contnaier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 1rem;
+    margin: 3rem auto;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.26);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    background: rgb(209, 233, 255);
+}
+
+.contnaier h2 {
+    align-self: flex-start;
+}
+
+.c-button {
+    color: #fff;
+    background-color: #19355a;
+    width: fit-content;
+    border: none;
+    padding: .5rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: ease-in-out 0.5s all;
+    align-self: center;
+    /* margin: 0 auto 0 0; */
+
+}
+
+.c-button:hover {
+    background-color: #AD8700;
+    transition: ease-in-out 0.5s all;
+    cursor: pointer;
+}
+
+.QR {
+    width: 100px;
+    height: 100px;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+.flex-row>p {
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+@media(max-width: 760px) {
+    .contnaier {
+        width: 90%;
+    }
+}

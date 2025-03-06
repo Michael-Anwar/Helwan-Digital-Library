@@ -1,0 +1,54 @@
+.profit h1 {
+    font-size: 2.5rem;
+}
+
+.icons-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 0 3rem;
+}
+
+.icon-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title-profit {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: #19355a;
+    margin: 2rem auto;
+}
+
+.icon-cont p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.icons-cont .icon {
+    font-size: 7rem;
+    margin: 0.5rem;
+    background-color: #19355a;
+    padding: 1.4rem;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    overflow: visible;
+    transition: ease-in-out 0.5s all;
+}
+
+.icons-cont .icon:hover {
+    background-color: #AD8700;
+    transition: ease-in-out 0.5s all;
+}
+
+@media(max-width: 760px) {
+    .icons-cont {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

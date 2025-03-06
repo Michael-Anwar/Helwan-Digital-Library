@@ -1,0 +1,255 @@
+/* .main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background: #ffffff;
+} */
+.main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #ffffff;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background: #CDCDCD;
+}
+
+.main .main-image {
+    display: flex;
+    width: 100%;
+    height: 95%;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.main .main-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7%
+}
+
+/* .main .main-content {
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+.main .main-content {
+    text-align: center;
+    min-height: 90%;
+    width: 80%;
+    display: flex;
+    background: #fff;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+
+.main .main-content .main-content-image img {
+    width: 80%;
+    height: 80%;
+}
+
+/*.main .main-content .main-content-image-text{
+
+}*/
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row-reverse;
+}
+
+.main .main-content .main-content-btn {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    background: #19355a;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    min-width: fit-content;
+}
+
+.main .main-content .main-content-btn {
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.5s all;
+
+}
+
+.main .main-content .main-content-btn:hover {
+    background: #AD8700;
+    transition: ease-in-out 0.5s all;
+}
+
+
+.lang {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.main .main-content .main-content-logo {
+    width: 50%;
+}
+
+.main .main-content .main-content-logo img {
+    width: 100%;
+}
+
+.main-content-form {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.main-content-form h3 {
+    color: #AD8700;
+    font-size: 2rem;
+}
+
+.main-content-form input[type=submit] {
+    background: #AD8700;
+    color: #fff;
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid #AD8700;
+    cursor: pointer;
+    transition: ease-in-out 0.5s all;
+
+}
+
+.main-content-form input[type=submit]:hover {
+    background: #fff;
+    color: #19355a;
+    border: 1px solid #AD8700;
+    transition: ease-in-out 0.5s all;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 .5rem;
+}
+
+
+.input p {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.input-container .input label {
+    color: #19355a;
+    padding: 5px;
+    /* font-weight: bold; */
+}
+
+input,
+.input select {
+    font-size: 1.3rem;
+}
+
+form .input {
+    /* margin: 5px; */
+    direction: ltr;
+    margin-bottom: .5rem;
+    font-size: 1.3rem;
+}
+
+.input input,
+.input select {
+    width: 100%;
+    /* height: 2.5rem; */
+    padding: 0 3PX;
+    border: none;
+    /* border-radius: 5px; */
+    /* margin: 5px auto; */
+    background: #f5f5f5;
+    border-radius: 10px;
+
+}
+
+.input input:focus {
+    border: 1px solid green;
+    outline: none;
+}
+
+.passwordcontainer {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0 3PX;
+    border-radius: 5px;
+}
+
+.passwordcontainer input {
+    border: none;
+}
+
+.passwordcontainer input:focus {
+    border: none;
+    outline: none;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .input-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .5rem;
+    }
+
+    .main .main-content .main-content-logo img {
+        width: 50% !important;
+    }
+} */
+
+@media only screen and (max-width: 600px) {
+    /* .main {
+        grid-template-columns: 1fr;
+    } */
+
+    /* .main .main-image {
+        display: none;
+    } */
+    .main>.main-content {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .main .main-content .main-content-logo img {
+        width: 100%;
+
+    }
+
+    .main>.main-content>.main-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .input-login-container>.input {
+        width: 90% !important;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+}

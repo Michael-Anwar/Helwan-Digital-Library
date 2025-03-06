@@ -1,0 +1,176 @@
+.UNAV .active {
+    background-color: #022442;
+    padding: .3rem;
+    border-radius: 10px;
+}
+
+nav,
+.right,
+.left {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    background-color: #19355a;
+    color: #fff;
+
+}
+
+.right,
+.left {
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.right>li>li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.right li,
+.right li {
+    width: fit-content;
+    list-style: none;
+}
+
+.dropdown li {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    border-bottom: 1px solid #19355a;
+    transition: ease-in-out 0.5s all;
+}
+
+.dropdown li:hover {
+    border-bottom: 1px solid;
+    transition: ease-in-out 0.5s all;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: #19355a;
+    padding: 0.5rem;
+    margin: 0.1rem -3rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
+    font-size: 1.3rem;
+    z-index: 3;
+}
+
+.dropdown li {
+    margin: 0.5rem 0;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.dropdown li a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+
+/* .dropdown li a:hover {
+    text-decoration: underline;
+  } */
+
+.logout {
+    cursor: pointer;
+}
+
+.left>li>a {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-image img {
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+nav .menu {
+    position: absolute;
+    top: .75rem;
+    right: .5rem;
+    flex-direction: column;
+    display: none;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+.l {
+    left: .5rem;
+}
+
+.r {
+    right: .5rem;
+}
+
+nav .menu span {
+    height: .4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: .2rem;
+}
+
+@media(max-width: 640px) {
+    nav .menu {
+        display: flex;
+    }
+
+    ul.left {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .dropdown {
+        margin: 1rem .5rem;
+    }
+
+    ul.open {
+        display: flex;
+    }
+}

@@ -1,0 +1,93 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background: #ffffff;
+}
+
+.main .main-image {
+    display: flex;
+    width: 100%;
+    height: 95%;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.main .main-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7%
+}
+
+.main .main-content {
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.main .main-content .main-content-image img {
+    width: 80%;
+    height: 80%;
+}
+
+/*.main .main-content .main-content-image-text{
+
+}*/
+
+.main .main-content .main-content-btn {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    background: #19355a;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    min-width: fit-content;
+}
+
+.main .main-content .main-content-btn {
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.5s all;
+
+}
+
+.main .main-content .main-content-btn:hover {
+    background: #AD8700;
+    transition: ease-in-out 0.5s all;
+}
+
+
+.lang {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+
+    .main .main-image {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 1125px) {
+
+    .main .main-image img {
+        height: 60%;
+    }
+}

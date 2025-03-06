@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'MyFont';
+  src: url('./assets/uni-id/GESSTextLight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-size: 95%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'MyFont';
+  src: url('./assets/uni-id/GE-SS-Text-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.error {
+  color: rgb(228, 85, 85);
+}
+
+.error-in {
+  border: 2px solid red;
+  background-color: pink;
+}
+
+/* Designing for scroll-bar */
+::-webkit-scrollbar {
+  width: 8px;
+  direction: rtl;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gainsboro;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #19355a;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/uni-id/GE-SS-Text-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

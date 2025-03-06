@@ -1,0 +1,23 @@
+.toggle-lang {
+    font-size: 2rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 17px;
+    border: none;
+    color: white;
+    background-color: #19355a;
+    transition: ease-in-out 0.5s all;
+}
+
+.toggle-lang:hover {
+    box-shadow: 0 0 10px #19355a;
+    transition: ease-in-out 0.5s all;
+    cursor: pointer;
+}
+
+.dropdown .toggle-lang {
+    border: none;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 3px;
+    padding: 0;
+}

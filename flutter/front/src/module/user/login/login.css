@@ -1,0 +1,36 @@
+.input-login-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-login-container>.input {
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.im {
+    width: 35% !important;
+}
+
+.input-login-container .input label {
+    color: #19355a;
+    padding: 5px;
+    /* font-weight: bold; */
+}
+
+.link {
+    color: #19355a;
+    text-decoration: underline;
+    /* font-weight: bold; */
+    font-size: 1.5rem;
+}
+
+/* .logBack{
+    background-image: url('../../../images/uni-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} */

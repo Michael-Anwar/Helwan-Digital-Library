@@ -1,0 +1,98 @@
+.inst {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.inst img {
+    width: 200px;
+    padding-top: 10px;
+}
+
+.inst-container {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inst .information-service_body {
+    background: #19355a;
+    color: #fff;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.3);
+    animation: fade-iin .7s ease-in-out;
+
+}
+
+.inst h1 {
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.inst .information-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.inst .list-steps {
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    padding: 0 5rem;
+}
+
+.sub-now {
+    width: 70%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.6rem;
+    background-color: #AD8700;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #AD8700;
+    transition: ease-in-out 0.5s all;
+}
+
+.sub-now:hover {
+    background: #fff;
+    color: #19355a;
+    border: 1px solid #AD8700;
+    transition: ease-in-out 0.5s all;
+}
+
+@media (max-width:910px) {
+    .inst .information-service_body {
+        width: 90%;
+        justify-content: flex-end;
+    }
+
+    .inst .list-steps {
+        padding: 0 1rem;
+    }
+}

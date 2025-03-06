@@ -1,0 +1,198 @@
+.req {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputt {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    gap: 1rem;
+    justify-items: center;
+
+}
+.two {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.inputt>div {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    
+}
+.inputt .inputt-atch {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: baseline;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.data-c{
+    display: flex;
+}
+.inputt>div .atch-btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.subnav-contentt .inputt-atch .atch-btns button{
+    background-color: #AD8700;
+    color: #fff;
+    padding: .7rem;
+    border-radius: 15px;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    transition: ease-in-out 0.5s all;
+    cursor: pointer;
+}
+.inputt>div .subnav-contentt .atch-btns button:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s all;
+}
+
+.select-img {
+    /* border: 2px #AD8700 dashed; */
+    padding: .5rem;
+    width: 350px;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+
+}
+
+
+.information-service_body .img-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+.progress progress{
+    width: 90%;
+    height: 1.5rem;
+}
+
+.progress p{
+    font-size: 1.8rem;
+    color: #AD8700;
+    /* font-weight: 600; */
+}
+
+
+
+.upload-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.value {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #AD8700;
+    /* font-weight: 600; */
+    max-width: 100%;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    word-break: break-all;
+}
+.text-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.upload-image .img-icom {
+    font-size: 3rem;
+}
+
+.upload-image p {
+    font-size: 1.3rem;
+}
+
+.title-upload {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 80%;
+}
+.two{
+    columns: 2;
+}
+
+.req input[type=submit] {
+    background-color: #AD8700;
+    color: #fff;
+    padding: .4rem;
+    border: none;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+
+.req select,
+.req input[type=text] ,
+.req input[type=date] {
+    height: 3rem;
+    background-color: #ddd;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    width: 80%;
+    padding: 0 10px;
+}
+.openPdf{
+    margin:0  auto 1rem;
+    padding: .5rem .8rem;
+    background-color: #AD8700;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: ease-in-out 0.5s all;
+    border: 2px solid #AD8700;
+}
+.openPdf:hover{
+    color: #AD8700;
+    background-color: #fff;
+    transition: ease-in-out 0.5s all;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .inputt {
+        grid-template-columns: 1fr;
+    }
+
+    input[type=submit] {
+        margin-top: 2rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .data-c{
+        flex-direction: column;
+    }
+    .value{
+        font-size: .8rem;
+    }
+}

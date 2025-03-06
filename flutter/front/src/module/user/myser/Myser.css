@@ -1,0 +1,70 @@
+.waitbtn-edit {
+    background-color: #19355a;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    /* font-weight: 500; */
+    width: 80%;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.wait-p {
+    font-size: 15px;
+    color: #19355a;
+    width: 45rem;
+    text-align: center;
+}
+
+.information-service_body .contiue .code {
+    width: 80%;
+}
+
+.information-service_body .contiue a {
+    width: 50%;
+}
+
+.information-service_body .contiue {
+    width: 100%;
+}
+
+.waitbtn-edit:hover {
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    transition: all 0.5s ease-in-out;
+}
+
+.wait-txt {
+    background-color: #AD8700;
+    color: #000 !important;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.7rem !important;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 80% !important;
+    margin: auto !important;
+}
+
+@media(max-width: 760px) {
+    .wait-p {
+        width: 100%;
+    }
+
+    .waitbtn-edit {
+        width: 100%;
+    }
+
+    .wait-txt {
+        width: 100% !important;
+    }
+
+    .information-service_body .contiue .code {
+        width: 100%;
+    }
+
+    .information-service_body .contiue a {
+        width: 100%;
+    }
+}
