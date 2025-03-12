@@ -10,7 +10,7 @@ A full-stack **library management system** designed to **simplify the process of
 🔗 **GitHub Repository:** [Helwan Digital Library](https://github.com/mikget66/Helwan-Digital-Library)  
 
 ## 🚀 Tech Stack  
-- **Frontend:** React, Next.js (by [Micheal Anwar](https://github.com/mikget66))  
+- **Frontend:** React, Next.js (by [Micheal Anwar](https://github.com/Michael-Anwar))  
 - **Backend:** Node.js, Express, MongoDB (by [Nader Mamdoh](https://github.com/nadermamdouh068/))  
 - **Mobile App:** Flutter, Dart (by [Mina](https://github.com/Mina93-del))  
 
@@ -54,7 +54,7 @@ A full-stack **library management system** designed to **simplify the process of
 We welcome contributions! Feel free to fork the repo, submit issues, or open pull requests.  
 
 ## 📞 Contact  
-- **Micheal Anwar** (Frontend): [GitHub](https://github.com/mikget66)  
+- **Micheal Anwar** (Frontend): [GitHub](https://github.com/Michael-Anwar)  
 - **Nader Mamdoh** (Backend): [GitHub](https://github.com/nadermamdouh068/)  
 - **Mina** (Flutter): [GitHub](https://github.com/Mina93-del)  
 
