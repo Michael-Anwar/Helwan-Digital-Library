@@ -11,7 +11,7 @@ A full-stack **library management system** designed to **simplify the process of
 
 ## 🚀 Tech Stack  
 - **Frontend:** React, Next.js (by [Micheal Anwar](https://github.com/mikget66))  
-- **Backend:** Node.js, Express, MongoDB (by [Nader Mamdoh](https://github.com/NaderMamdouh68/))  
+- **Backend:** Node.js, Express, MongoDB (by [Nader Mamdoh](https://github.com/nadermamdouh068/))  
 - **Mobile App:** Flutter, Dart (by [Mina](https://github.com/Mina93-del))  
 
 ## 🎯 Features  
@@ -55,7 +55,7 @@ We welcome contributions! Feel free to fork the repo, submit issues, or open pul
 
 ## 📞 Contact  
 - **Micheal Anwar** (Frontend): [GitHub](https://github.com/mikget66)  
-- **Nader Mamdoh** (Backend): [GitHub](https://github.com/NaderMamdouh68/)  
+- **Nader Mamdoh** (Backend): [GitHub](https://github.com/nadermamdouh068/)  
 - **Mina** (Flutter): [GitHub](https://github.com/Mina93-del)  
 
 ---
